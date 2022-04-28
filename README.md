@@ -1,7 +1,7 @@
 # Predicting Trade Quantities
 International Merchandise Trade Statistics (IMTS) data contain many **missing and outliers quantity/net weight** information. As an example, among 128,675 records of Rice (HS 100630) Imports between 2013 and 2017, around 7% are missing and 13% are outliers.
 
-<img src="https://github.com/HabibRKhan/trade-quantity-prediction/blob/master/images/rice-Outlier-share.PNG" width="30%" height="30%">
+<img src="https://github.com/HabibRKhan/trade-quantity-prediction/blob/master/images/rice-Outlier-share.PNG" width="50%" height="50%">
 
 **The objective of this analysis is to find a suitable model to estimate these missing quantities.**
 
