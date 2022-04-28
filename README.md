@@ -1,4 +1,4 @@
-# Predicting trade quantities
+# Predicting Trade Quantities
 International Merchandise Trade Statistics (IMTS) data contain many **missing and outliers quantity/net weight** information. As an example, among 128,675 records of Rice (HS 100630) Imports between 2013 and 2017, around 7% are missing and 13% are outliers.
 
 <img src="https://github.com/HabibRKhan/trade-quantity-prediction/blob/master/images/rice-Outlier-share.PNG" width="30%" height="30%">
@@ -41,7 +41,7 @@ Period is a significant predictor of unit values. The ANOVA test shows this.
 
 <img src="https://github.com/HabibRKhan/trade-quantity-prediction/blob/master/images/period.PNG" width="100%" height="100%">
 
-### Regions and subregions
+### Regions and Subregions
 Regions and subregions for bothe Reporters and Partners were significant. However, it was observed that Partner Subregion can account for more variations than any other variables.
 
 <img src="https://github.com/HabibRKhan/trade-quantity-prediction/blob/master/images/repRegion.PNG" width="100%" height="100%">
@@ -82,5 +82,5 @@ So in all three of these, **less is better**. Below image shows result for one o
 ## Summary
 So far, it seems, simpler models perform better. Subregional SUV, Cluster SUV and SUV give the best prediction in most cases. In some cases the Hierarchical model combining clustering and regression performs well. One thing is clear, a model with all possible predictor (Model All) is the worst as it evidently leads to serious overfitting.
 
-### Next steps
+### Next Steps
 This analysis needs to be repeated for exports data to see if the dynamics are similar there. Also, Neural Network Models should be explored to see how well can they predict the quantities.
